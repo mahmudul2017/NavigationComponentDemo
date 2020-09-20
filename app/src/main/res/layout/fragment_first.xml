@@ -8,7 +8,7 @@
     tools:context=".FirstFragment">
 
     <Button
-        android:id="@+id/tv_fragmentOne"
+        android:id="@+id/btn_fragmentOne"
         android:gravity="center"
         android:background="@color/colorAccent"
         android:textSize="30sp"

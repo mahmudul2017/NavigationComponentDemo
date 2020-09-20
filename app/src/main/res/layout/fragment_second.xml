@@ -7,8 +7,14 @@
     android:background="@color/colorPrimary"
     tools:context=".SecondFragment">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
     <Button
-        android:id="@+id/tv_fragmentTwo"
+        android:id="@+id/btn_fragmentTwo"
         android:gravity="center"
         android:textSize="30sp"
         android:padding="6dp"
@@ -19,4 +25,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fragment Two" />
+
+    <TextView
+        android:id="@+id/tv_fragmentTwo"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="6dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="......" />
+    </LinearLayout>
 </FrameLayout>
