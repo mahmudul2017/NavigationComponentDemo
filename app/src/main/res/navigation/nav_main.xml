@@ -28,8 +28,7 @@
             app:destination="@id/firstFragment" />
 
         <argument
-            android:name="number"
-            app:argType="integer"
-            android:defaultValue="2" />
+            android:name="userModel"
+            app:argType="com.example.navigationcomponentdemo.model.User" />
     </fragment>
 </navigation>

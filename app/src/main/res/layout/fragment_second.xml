@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     tools:context=".SecondFragment">
 
     <LinearLayout
@@ -13,31 +11,31 @@
         android:gravity="center"
         android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_fragmentTwo"
-        android:gravity="center"
-        android:textSize="30sp"
-        android:padding="6dp"
-        android:background="@color/colorPrimary"
-        android:textStyle="bold|italic"
-        android:textColor="@color/colorWhite"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment Two" />
+        <TextView
+            android:id="@+id/tv_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="First Name"
+            android:textSize="30sp"
+            android:textStyle="italic" />
 
-    <TextView
-        android:id="@+id/tv_fragmentTwo"
-        android:gravity="center"
-        android:textSize="30sp"
-        android:padding="6dp"
-        android:layout_marginTop="12dp"
-        android:background="@color/colorPrimaryDark"
-        android:textStyle="bold|italic"
-        android:textColor="@color/colorWhite"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="......" />
+        <TextView
+            android:id="@+id/tv_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="Last Name"
+            android:textSize="30sp"
+            android:textStyle="italic" />
     </LinearLayout>
 </FrameLayout>
